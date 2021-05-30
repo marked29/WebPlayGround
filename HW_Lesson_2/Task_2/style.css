@@ -1,0 +1,24 @@
+div {
+    height: 140px;
+    width: 320px;
+    background-color: cyan;
+    margin-top: 15px;
+}
+
+div:first-child{
+    margin-top: auto;
+    border: 2px red dashed;
+}
+
+div:nth-child(2){
+    background-color: yellow;
+    border: 2px red dotted;
+}
+
+div:nth-child(3){
+    border: 20px  blue inset;
+}
+
+div:nth-child(4){
+    border-left: 7px solid black;
+}

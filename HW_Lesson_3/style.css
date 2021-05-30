@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #40b9bb;
+}
+
+/* Text handling styles */
+
+#red{
+    color:red;
+}
+
+#yellow{
+    color:yellow;
+}
+
+#green{
+    color:green;
+}
+
+.semi-bold {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-text {
+    font-size: 24px;
+    text-shadow: black .5px .5px .5px;
+}
+
+.header-text:hover {
+    text-decoration: underline
+}
+
+/* Main containers positioning */
+
+.container {
+    width: 70vw;
+    margin: auto;
+}
+
+.inner-container-c {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inner-container-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Work with image */
+
+.inner-container-sa > img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 0 0 5px #fff;
+ }
+
+ img:hover {
+    transform: scale(1.2);
+    transition: .5s ease;
+ }
+
+/* Single responsibility classes */
+
+.center {
+    text-align: center;
+}
+
+.top-margin {
+    margin-top: 20px;
+}
